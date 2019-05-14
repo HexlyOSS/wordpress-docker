@@ -1,0 +1,5 @@
+.DS_Store
+node_modules
+logs/apache2/*
+mysql/data/*
+.history
