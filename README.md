@@ -28,6 +28,19 @@ http://127.0.0.1:8091
 
 On First run you will be prompted to execute the wp install. Select an easy to remember admin passowrd. If you forget this it is a pain to reset and will likely be easier to simply delete and re-install.
 
+## FTP
+
+The repo contains a very basic ftp server that is spun up as part of the docker-compose up process. This will allow you to upload/update/install plugins into your running wp server.
+
+You access the ftp server at:
+```
+ftp:2121
+```
+
+`ftp` is the name of the service in docker-compose, so all images inside of that network will access it via that service name. The port it listens on is `2121`
+
+The username is `admin` and the password is `123456`
+
 ## Bootnotes:
  - Configuration files are in `/conf` and should be easily recognizable 
  - MySQL data is persisted to `/mysql/data`, of which the contents are gitignored. So your data will survive container restarts 
