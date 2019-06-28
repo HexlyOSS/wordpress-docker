@@ -1,5 +1,12 @@
 version: '3'
 services:
+  dockerhost:
+      image: qoomon/docker-host
+      cap_add: [ 'NET_ADMIN', 'NET_RAW' ]
+  
+  ops:
+    image: sjback/k8s-ops-helper
+
   wp:
     image: library/wordpress
     depends_on:
