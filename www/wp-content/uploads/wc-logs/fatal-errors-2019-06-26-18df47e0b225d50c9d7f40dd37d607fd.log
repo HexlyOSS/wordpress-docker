@@ -1,0 +1,60 @@
+2019-06-26T00:09:11+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in /var/www/html/wp-content/plugins/hexly-commerce/inc/hexly-meta-boxes.php on line 27
+
+2019-06-26T21:31:10+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function HexlyCommerceFields::admin_order_item_fields_save(), 3 passed in /var/www/html/wp-includes/class-wp-hook.php on line 286 and exactly 4 expected in /var/www/html/wp-content/plugins/hexly-commerce/inc/product-fields.php:78
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): HexlyCommerceFields->admin_order_item_fields_save(23, Object(WP_Post), true)
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/post.php(3962): do_action('wp_insert_post', 23, Object(WP_Post), true)
+#4 /var/www/html/wp-includes/post.php(4028): wp_insert_post(Array, false)
+#5 /var/www/html/wp-includes/post.php(2988): wp_update_post(Array)
+#6 /var/www/html/wp-admin/edit.php(118): wp_trash_post(23)
+#7 {main}
+  thrown in /var/www/html/wp-content/plugins/hexly-commerce/inc/product-fields.php on line 78
+
+2019-06-26T21:32:21+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function HexlyCommerceFields::admin_order_item_fields_save(), 1 passed in /var/www/html/wp-includes/class-wp-hook.php on line 288 and exactly 4 expected in /var/www/html/wp-content/plugins/hexly-commerce/inc/product-fields.php:78
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(288): HexlyCommerceFields->admin_order_item_fields_save(20)
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/post.php(3962): do_action('wp_insert_post', 20, Object(WP_Post), true)
+#4 /var/www/html/wp-includes/post.php(4028): wp_insert_post(Array, false)
+#5 /var/www/html/wp-includes/post.php(2988): wp_update_post(Array)
+#6 /var/www/html/wp-admin/edit.php(118): wp_trash_post(20)
+#7 {main}
+  thrown in /var/www/html/wp-content/plugins/hexly-commerce/inc/product-fields.php on line 78
+
+2019-06-26T21:38:04+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on null in /var/www/html/wp-content/plugins/hexly-commerce/inc/product-fields.php:81
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): HexlyCommerceFields->admin_order_item_fields_save(26)
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-order-data-store-cpt.php(169): do_action('woocommerce_new...', 26)
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(179): WC_Order_Data_Store_CPT->update(Object(WC_Order))
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-order.php(223): WC_Data_Store->update(Object(WC_Order))
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-order-data.php(620): WC_Order->save()
+#7 /var/www/html/wp-includes/class-wp-hook.php(286): WC_Meta_Box_Order_Da in /var/www/html/wp-content/plugins/hexly-commerce/inc/product-fields.php on line 81
+
+2019-06-26T21:38:40+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function HexlyCommerceFields::admin_order_item_fields_save(), 1 passed in /var/www/html/wp-includes/class-wp-hook.php on line 286 and exactly 4 expected in /var/www/html/wp-content/plugins/hexly-commerce/inc/product-fields.php:78
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): HexlyCommerceFields->admin_order_item_fields_save(26)
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-order-data-store-cpt.php(169): do_action('woocommerce_new...', 26)
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(179): WC_Order_Data_Store_CPT->update(Object(WC_Order))
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-order.php(223): WC_Data_Store->update(Object(WC_Order))
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/admi in /var/www/html/wp-content/plugins/hexly-commerce/inc/product-fields.php on line 78
+
+2019-06-26T21:40:15+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on null in /var/www/html/wp-content/plugins/hexly-commerce/inc/product-fields.php:81
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): HexlyCommerceFields->admin_order_item_fields_save(26)
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/data-stores/class-wc-order-data-store-cpt.php(169): do_action('woocommerce_new...', 26)
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(179): WC_Order_Data_Store_CPT->update(Object(WC_Order))
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-order.php(223): WC_Data_Store->update(Object(WC_Order))
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-order-data.php(620): WC_Order->save()
+#7 /var/www/html/wp-includes/class-wp-hook.php(286): WC_Meta_Box_Order_Da in /var/www/html/wp-content/plugins/hexly-commerce/inc/product-fields.php on line 81
+
+2019-06-26T23:52:48+00:00 CRITICAL Object of class WP_User could not be converted to string in /var/www/html/wp-content/plugins/hexly-commerce/inc/product-fields.php on line 80
+
