@@ -1,8 +1,16 @@
 version: '3'
 services:
+  dockerhost:
+      image: qoomon/docker-host
+      cap_add: [ 'NET_ADMIN', 'NET_RAW' ]
+  
+  ops:
+    image: sjback/k8s-ops-helper
 
   wp:
     image: library/wordpress
+    depends_on:
+      - mysql
     links:
       - mysql
     ports:
@@ -15,12 +23,16 @@ services:
       - ./conf/uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
       - ./src/plugins:/var/www/html/wp-content/plugins
       - ./src/themes:/var/www/html/wp-content/themes
+      # If you want to link in other projects but not check them in, this can be a good strategy. 
+      # Create a plugins folder next to this repo and clone your plugins there, then uncomment the next line
+      # - ../plugins:/var/www/plugins
 
   mysql:
     image: mysql:8.0.16
     command: '--default-authentication-plugin=mysql_native_password'
     environment:
       MYSQL_ROOT_PASSWORD: example
+      MYSQL_DATABASE: wordpress
     ports:
       - 3406:3306
     volumes:
@@ -38,5 +50,4 @@ services:
       - ./src/plugins:/opt/root/var/www/html/wp-content/plugins
       - ./src/themes:/opt/root/var/www/html/wp-content/themes
     depends_on:
-      - "wp"
-  
+      - 'wp'
