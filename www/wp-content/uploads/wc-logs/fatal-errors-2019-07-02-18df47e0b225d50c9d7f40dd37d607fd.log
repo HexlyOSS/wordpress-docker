@@ -51,3 +51,51 @@ Stack trace:
 #5 {main}
   thrown in /var/www/html/wp-content/plugins/hexly-common/templates/admin.php on line 18
 
+2019-07-02T18:34:37+00:00 CRITICAL Uncaught Error: Call to a member function log() on null in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php:29
+Stack trace:
+#0 /var/www/html/wp-content/plugins/hexly-common/templates/admin.php(14): AvailableProducts->render()
+#1 /var/www/html/wp-content/plugins/hexly-common/inc/adminSettings.php(60): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-includes/class-wp-hook.php(286): HexlyAdminSettings->admin_index('')
+#3 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#5 /var/www/html/wp-admin/admin.php(253): do_action('toplevel_page_w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 29
+
+2019-07-02T19:35:44+00:00 CRITICAL Uncaught Error: Call to a member function get_data() on array in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php:22
+Stack trace:
+#0 /var/www/html/wp-content/plugins/hexly-common/templates/admin.php(12): AvailableProducts->render()
+#1 /var/www/html/wp-content/plugins/hexly-common/inc/adminSettings.php(60): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-includes/class-wp-hook.php(286): HexlyAdminSettings->admin_index('')
+#3 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#5 /var/www/html/wp-admin/admin.php(253): do_action('toplevel_page_w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 22
+
+2019-07-02T19:36:38+00:00 CRITICAL Uncaught Error: Call to a member function get_data() on array in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php:23
+Stack trace:
+#0 /var/www/html/wp-content/plugins/hexly-common/templates/admin.php(12): AvailableProducts->render()
+#1 /var/www/html/wp-content/plugins/hexly-common/inc/adminSettings.php(60): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-includes/class-wp-hook.php(286): HexlyAdminSettings->admin_index('')
+#3 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#5 /var/www/html/wp-admin/admin.php(253): do_action('toplevel_page_w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 23
+
+2019-07-02T19:37:09+00:00 CRITICAL Uncaught Error: Call to a member function get_data() on array in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php:23
+Stack trace:
+#0 /var/www/html/wp-content/plugins/hexly-common/templates/admin.php(12): AvailableProducts->render()
+#1 /var/www/html/wp-content/plugins/hexly-common/inc/adminSettings.php(60): require_once('/var/www/html/w...')
+#2 /var/www/html/wp-includes/class-wp-hook.php(286): HexlyAdminSettings->admin_index('')
+#3 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#5 /var/www/html/wp-admin/admin.php(253): do_action('toplevel_page_w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 23
+
+2019-07-02T19:49:27+00:00 CRITICAL syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 26
+
+2019-07-02T19:49:34+00:00 CRITICAL syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 26
+
