@@ -1,0 +1,17 @@
+2019-07-29T18:37:29+00:00 CRITICAL Cannot redeclare HexlyAuth::hexly_authenticate() in /var/www/html/wp-content/plugins/wp-auth/inc/auth.php on line 79
+
+2019-07-29T18:44:23+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_User as array in /var/www/html/wp-content/plugins/wp-auth/inc/auth.php:81
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): HexlyAuth->hexly_register(13)
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/user.php(1854): do_action('user_register', 13)
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/wc-user-functions.php(99): wp_insert_user(Array)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(1105): wc_create_new_customer('ba09efwanfmk@jf...', 'ba09efwanfmk', 'OaSvvBCyd0ui')
+#6 /var/www/html/wp-includes/class-wp-hook.php(286): WC_Form_Handler::process_registration('')
+#7 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#8 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#9 /var/www/html/wp-settings.php(546): do_a in /var/www/html/wp-content/plugins/wp-auth/inc/auth.php on line 81
+
+2019-07-29T20:54:38+00:00 CRITICAL Object of class HexlyAuth could not be converted to string in /var/www/html/wp-content/plugins/wp-auth/inc/auth.php on line 111
+

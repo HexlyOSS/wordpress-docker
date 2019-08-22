@@ -1,0 +1,126 @@
+2019-07-08T19:13:42+00:00 CRITICAL Uncaught Error: Call to undefined function add_submenu_page() in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php:5
+Stack trace:
+#0 /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php(69): AvailableProducts->__construct()
+#1 /var/www/html/wp-content/plugins/hexly-commerce/hexly-commerce.php(52): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-includes/class-wp-hook.php(286): hexly_commerce_loaded('')
+#3 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#4 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#5 /var/www/html/wp-settings.php(394): do_action('plugins_loaded')
+#6 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-load.php(37): require_once('/var/www/html/w...')
+#8 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#9 {main}
+  thrown in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 5
+
+2019-07-08T19:13:44+00:00 CRITICAL Uncaught Error: Call to undefined function add_submenu_page() in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php:5
+Stack trace:
+#0 /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php(69): AvailableProducts->__construct()
+#1 /var/www/html/wp-content/plugins/hexly-commerce/hexly-commerce.php(52): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-includes/class-wp-hook.php(286): hexly_commerce_loaded('')
+#3 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#4 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#5 /var/www/html/wp-settings.php(394): do_action('plugins_loaded')
+#6 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-load.php(37): require_once('/var/www/html/w...')
+#8 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#9 {main}
+  thrown in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 5
+
+2019-07-08T19:20:11+00:00 CRITICAL Uncaught Error: Call to undefined function add_submenu_page() in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php:5
+Stack trace:
+#0 /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php(71): AvailableProducts->__construct()
+#1 /var/www/html/wp-content/plugins/hexly-commerce/hexly-commerce.php(52): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-includes/class-wp-hook.php(286): hexly_commerce_loaded('')
+#3 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#4 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#5 /var/www/html/wp-settings.php(394): do_action('plugins_loaded')
+#6 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-load.php(37): require_once('/var/www/html/w...')
+#8 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#9 {main}
+  thrown in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 5
+
+2019-07-08T19:20:18+00:00 CRITICAL Uncaught Error: Call to undefined function add_submenu_page() in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php:5
+Stack trace:
+#0 /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php(71): AvailableProducts->__construct()
+#1 /var/www/html/wp-content/plugins/hexly-commerce/hexly-commerce.php(52): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-includes/class-wp-hook.php(286): hexly_commerce_loaded('')
+#3 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#4 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#5 /var/www/html/wp-settings.php(394): do_action('plugins_loaded')
+#6 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-load.php(37): require_once('/var/www/html/w...')
+#8 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#9 {main}
+  thrown in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 5
+
+2019-07-08T19:20:22+00:00 CRITICAL Uncaught Error: Call to undefined function add_submenu_page() in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php:5
+Stack trace:
+#0 /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php(71): AvailableProducts->__construct()
+#1 /var/www/html/wp-content/plugins/hexly-commerce/hexly-commerce.php(52): include_once('/var/www/html/w...')
+#2 /var/www/html/wp-includes/class-wp-hook.php(286): hexly_commerce_loaded('')
+#3 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#4 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#5 /var/www/html/wp-settings.php(394): do_action('plugins_loaded')
+#6 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-load.php(37): require_once('/var/www/html/w...')
+#8 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#9 {main}
+  thrown in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 5
+
+2019-07-08T19:25:05+00:00 CRITICAL Uncaught Error: Method name must be a string in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php:9
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): AvailableProducts->add_submenu('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/includes/menu.php(154): do_action('admin_menu', '')
+#4 /var/www/html/wp-admin/menu.php(309): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin.php(152): require('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 9
+
+2019-07-08T19:25:37+00:00 CRITICAL Uncaught Error: Method name must be a string in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php:10
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): AvailableProducts->add_submenu('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/includes/menu.php(154): do_action('admin_menu', '')
+#4 /var/www/html/wp-admin/menu.php(309): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-admin/admin.php(152): require('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 10
+
+2019-07-08T19:26:40+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_get_nav_menu_items(), 0 passed in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 9 and at least 1 expected in /var/www/html/wp-includes/nav-menu.php:660
+Stack trace:
+#0 /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php(9): wp_get_nav_menu_items()
+#1 /var/www/html/wp-includes/class-wp-hook.php(286): AvailableProducts->add_submenu('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-admin/includes/menu.php(154): do_action('admin_menu', '')
+#5 /var/www/html/wp-admin/menu.php(309): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-admin/admin.php(152): require('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-includes/nav-menu.php on line 660
+
+2019-07-08T19:49:28+00:00 CRITICAL Uncaught Error: Call to undefined function add_submenu_page() in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php:10
+Stack trace:
+#0 /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php(5): AvailableProducts->add_submenu()
+#1 /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php(81): AvailableProducts->__construct()
+#2 /var/www/html/wp-content/plugins/hexly-commerce/hexly-commerce.php(52): include_once('/var/www/html/w...')
+#3 /var/www/html/wp-includes/class-wp-hook.php(286): hexly_commerce_loaded('')
+#4 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#6 /var/www/html/wp-settings.php(394): do_action('plugins_loaded')
+#7 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#8 /var/www/html/wp-load.php(37): require_once('/var/www/html/w...')
+#9 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#10  in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 10
+
+2019-07-08T20:15:06+00:00 CRITICAL require_once(): Failed opening required '/var/www/html/wp-content/plugins/hexly-commerce//available-prod-screen.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 21
+
+2019-07-08T20:15:24+00:00 CRITICAL require_once(): Failed opening required '/var/www/html/wp-content/plugins/hexly-commerce/available-prod-screen.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 21
+
+2019-07-08T22:47:49+00:00 CRITICAL syntax error, unexpected '$td_style' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST) in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 4
+
+2019-07-08T22:48:50+00:00 CRITICAL syntax error, unexpected '$td_style' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST) in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 4
+

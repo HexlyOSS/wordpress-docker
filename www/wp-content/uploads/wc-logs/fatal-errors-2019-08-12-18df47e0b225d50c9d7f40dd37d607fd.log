@@ -1,0 +1,318 @@
+2019-08-12T19:46:59+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_subtotal() on null in /var/www/html/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-functions.php:77
+Stack trace:
+#0 /var/www/html/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-functions.php(120): storefront_cart_link()
+#1 /var/www/html/wp-includes/class-wp-hook.php(286): storefront_header_cart('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-content/themes/storefront/header.php(46): do_action('storefront_head...')
+#5 /var/www/html/wp-includes/template.php(722): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-includes/template.php(671): load_template('/var/www/html/w...', true)
+#7 /var/www/html/wp-includes/general-template.php(41): locate_template(Array, true)
+#8 /var/www/html/wp-content/themes/storefront/index.php(14): get_header()
+#9 /var/www/html/wp-include in /var/www/html/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-functions.php on line 77
+
+2019-08-12T19:47:03+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_subtotal() on null in /var/www/html/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-functions.php:77
+Stack trace:
+#0 /var/www/html/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-functions.php(120): storefront_cart_link()
+#1 /var/www/html/wp-includes/class-wp-hook.php(286): storefront_header_cart('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-content/themes/storefront/header.php(46): do_action('storefront_head...')
+#5 /var/www/html/wp-includes/template.php(722): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-includes/template.php(671): load_template('/var/www/html/w...', true)
+#7 /var/www/html/wp-includes/general-template.php(41): locate_template(Array, true)
+#8 /var/www/html/wp-content/themes/storefront/index.php(14): get_header()
+#9 /var/www/html/wp-include in /var/www/html/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-functions.php on line 77
+
+2019-08-12T19:47:04+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_subtotal() on null in /var/www/html/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-functions.php:77
+Stack trace:
+#0 /var/www/html/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-functions.php(120): storefront_cart_link()
+#1 /var/www/html/wp-includes/class-wp-hook.php(286): storefront_header_cart('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-content/themes/storefront/header.php(46): do_action('storefront_head...')
+#5 /var/www/html/wp-includes/template.php(722): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-includes/template.php(671): load_template('/var/www/html/w...', true)
+#7 /var/www/html/wp-includes/general-template.php(41): locate_template(Array, true)
+#8 /var/www/html/wp-content/themes/storefront/index.php(14): get_header()
+#9 /var/www/html/wp-include in /var/www/html/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-functions.php on line 77
+
+2019-08-12T19:47:17+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_subtotal() on null in /var/www/html/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-functions.php:77
+Stack trace:
+#0 /var/www/html/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-functions.php(120): storefront_cart_link()
+#1 /var/www/html/wp-includes/class-wp-hook.php(286): storefront_header_cart('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-content/themes/storefront/header.php(46): do_action('storefront_head...')
+#5 /var/www/html/wp-includes/template.php(722): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-includes/template.php(671): load_template('/var/www/html/w...', true)
+#7 /var/www/html/wp-includes/general-template.php(41): locate_template(Array, true)
+#8 /var/www/html/wp-content/themes/storefront/index.php(14): get_header()
+#9 /var/www/html/wp-include in /var/www/html/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-functions.php on line 77
+
+2019-08-12T19:47:19+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_subtotal() on null in /var/www/html/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-functions.php:77
+Stack trace:
+#0 /var/www/html/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-functions.php(120): storefront_cart_link()
+#1 /var/www/html/wp-includes/class-wp-hook.php(286): storefront_header_cart('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-content/themes/storefront/header.php(46): do_action('storefront_head...')
+#5 /var/www/html/wp-includes/template.php(722): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-includes/template.php(671): load_template('/var/www/html/w...', true)
+#7 /var/www/html/wp-includes/general-template.php(41): locate_template(Array, true)
+#8 /var/www/html/wp-content/themes/storefront/index.php(14): get_header()
+#9 /var/www/html/wp-include in /var/www/html/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-functions.php on line 77
+
+2019-08-12T19:47:22+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_subtotal() on null in /var/www/html/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-functions.php:77
+Stack trace:
+#0 /var/www/html/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-functions.php(120): storefront_cart_link()
+#1 /var/www/html/wp-includes/class-wp-hook.php(286): storefront_header_cart('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-content/themes/storefront/header.php(46): do_action('storefront_head...')
+#5 /var/www/html/wp-includes/template.php(722): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-includes/template.php(671): load_template('/var/www/html/w...', true)
+#7 /var/www/html/wp-includes/general-template.php(41): locate_template(Array, true)
+#8 /var/www/html/wp-content/themes/storefront/index.php(14): get_header()
+#9 /var/www/html/wp-include in /var/www/html/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-functions.php on line 77
+
+2019-08-12T19:47:22+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_subtotal() on null in /var/www/html/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-functions.php:77
+Stack trace:
+#0 /var/www/html/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-functions.php(120): storefront_cart_link()
+#1 /var/www/html/wp-includes/class-wp-hook.php(286): storefront_header_cart('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-content/themes/storefront/header.php(46): do_action('storefront_head...')
+#5 /var/www/html/wp-includes/template.php(722): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-includes/template.php(671): load_template('/var/www/html/w...', true)
+#7 /var/www/html/wp-includes/general-template.php(41): locate_template(Array, true)
+#8 /var/www/html/wp-content/themes/storefront/index.php(14): get_header()
+#9 /var/www/html/wp-include in /var/www/html/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-functions.php on line 77
+
+2019-08-12T19:47:25+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_subtotal() on null in /var/www/html/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-functions.php:77
+Stack trace:
+#0 /var/www/html/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-functions.php(120): storefront_cart_link()
+#1 /var/www/html/wp-includes/class-wp-hook.php(286): storefront_header_cart('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-content/themes/storefront/header.php(46): do_action('storefront_head...')
+#5 /var/www/html/wp-includes/template.php(722): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-includes/template.php(671): load_template('/var/www/html/w...', true)
+#7 /var/www/html/wp-includes/general-template.php(41): locate_template(Array, true)
+#8 /var/www/html/wp-content/themes/storefront/index.php(14): get_header()
+#9 /var/www/html/wp-include in /var/www/html/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-functions.php on line 77
+
+2019-08-12T19:47:32+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_subtotal() on null in /var/www/html/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-functions.php:77
+Stack trace:
+#0 /var/www/html/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-functions.php(120): storefront_cart_link()
+#1 /var/www/html/wp-includes/class-wp-hook.php(286): storefront_header_cart('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-content/themes/storefront/header.php(46): do_action('storefront_head...')
+#5 /var/www/html/wp-includes/template.php(722): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-includes/template.php(671): load_template('/var/www/html/w...', true)
+#7 /var/www/html/wp-includes/general-template.php(41): locate_template(Array, true)
+#8 /var/www/html/wp-content/themes/storefront/index.php(14): get_header()
+#9 /var/www/html/wp-include in /var/www/html/wp-content/themes/storefront/inc/woocommerce/storefront-woocommerce-template-functions.php on line 77
+
+2019-08-12T20:21:06+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /var/www/html/wp-content/plugins/hexly-commerce/inc/product-fields.php:87
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): HexlyCommerceFields->sync_order_with_hexly(115, Array)
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(402): do_action('woocommerce_che...', 115, Array)
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(1109): WC_Checkout->create_order(Array)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(462): WC_Checkout->process_checkout()
+#6 /var/www/html/wp-includes/class-wp-hook.php(286): WC_AJAX::checkout('')
+#7 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#9 /var/www/ in /var/www/html/wp-content/plugins/hexly-commerce/inc/product-fields.php on line 87
+
+2019-08-12T20:47:25+00:00 CRITICAL Object of class WP_Error could not be converted to string in /var/www/html/wp-content/plugins/hexly-commerce/inc/product-fields.php on line 94
+
+2019-08-12T20:48:21+00:00 CRITICAL Object of class WP_Error could not be converted to string in /var/www/html/wp-content/plugins/hexly-commerce/inc/product-fields.php on line 94
+
+2019-08-12T20:54:40+00:00 CRITICAL Uncaught Error: Call to undefined function jsonencode() in /var/www/html/wp-content/plugins/hexly-commerce/inc/product-fields.php:94
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): HexlyCommerceFields->sync_order_with_hexly(130, Array)
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(402): do_action('woocommerce_che...', 130, Array)
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(1109): WC_Checkout->create_order(Array)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(462): WC_Checkout->process_checkout()
+#6 /var/www/html/wp-includes/class-wp-hook.php(286): WC_AJAX::checkout('')
+#7 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#9 /var/www/html in /var/www/html/wp-content/plugins/hexly-commerce/inc/product-fields.php on line 94
+
+2019-08-12T20:55:07+00:00 CRITICAL Uncaught Error: Call to undefined function jsonencode() in /var/www/html/wp-content/plugins/hexly-commerce/inc/product-fields.php:94
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): HexlyCommerceFields->sync_order_with_hexly(131, Array)
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(402): do_action('woocommerce_che...', 131, Array)
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(1109): WC_Checkout->create_order(Array)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(462): WC_Checkout->process_checkout()
+#6 /var/www/html/wp-includes/class-wp-hook.php(286): WC_AJAX::checkout('')
+#7 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#9 /var/www/html in /var/www/html/wp-content/plugins/hexly-commerce/inc/product-fields.php on line 94
+
+2019-08-12T20:58:19+00:00 CRITICAL Uncaught Error: Call to undefined function jsonencode() in /var/www/html/wp-content/plugins/hexly-commerce/inc/product-fields.php:94
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): HexlyCommerceFields->sync_order_with_hexly(132, Array)
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(402): do_action('woocommerce_che...', 132, Array)
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(1109): WC_Checkout->create_order(Array)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(462): WC_Checkout->process_checkout()
+#6 /var/www/html/wp-includes/class-wp-hook.php(286): WC_AJAX::checkout('')
+#7 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#9 /var/www/html in /var/www/html/wp-content/plugins/hexly-commerce/inc/product-fields.php on line 94
+
+2019-08-12T21:06:54+00:00 CRITICAL Uncaught Error: Call to undefined function jsonencode() in /var/www/html/wp-content/plugins/hexly-commerce/inc/product-fields.php:94
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): HexlyCommerceFields->sync_order_with_hexly(133, Array)
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(402): do_action('woocommerce_che...', 133, Array)
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(1109): WC_Checkout->create_order(Array)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(462): WC_Checkout->process_checkout()
+#6 /var/www/html/wp-includes/class-wp-hook.php(286): WC_AJAX::checkout('')
+#7 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#9 /var/www/html in /var/www/html/wp-content/plugins/hexly-commerce/inc/product-fields.php on line 94
+
+2019-08-12T21:15:39+00:00 CRITICAL Uncaught Error: Cannot throw objects that do not implement Throwable in /var/www/html/wp-content/plugins/hexly-commerce/inc/product-fields.php:95
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): HexlyCommerceFields->sync_order_with_hexly(136, Array)
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(402): do_action('woocommerce_che...', 136, Array)
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(1109): WC_Checkout->create_order(Array)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(462): WC_Checkout->process_checkout()
+#6 /var/www/html/wp-includes/class-wp-hook.php(286): WC_AJAX::checkout('')
+#7 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#9  in /var/www/html/wp-content/plugins/hexly-commerce/inc/product-fields.php on line 95
+
+2019-08-12T21:20:15+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Error::get_messages() in /var/www/html/wp-content/plugins/hexly-commerce/inc/product-fields.php:95
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): HexlyCommerceFields->sync_order_with_hexly(138, Array)
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(402): do_action('woocommerce_che...', 138, Array)
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(1109): WC_Checkout->create_order(Array)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(462): WC_Checkout->process_checkout()
+#6 /var/www/html/wp-includes/class-wp-hook.php(286): WC_AJAX::checkout('')
+#7 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#9 /va in /var/www/html/wp-content/plugins/hexly-commerce/inc/product-fields.php on line 95
+
+2019-08-12T21:21:53+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Error::get_messages() in /var/www/html/wp-content/plugins/hexly-commerce/inc/product-fields.php:94
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): HexlyCommerceFields->sync_order_with_hexly(139, Array)
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(402): do_action('woocommerce_che...', 139, Array)
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(1109): WC_Checkout->create_order(Array)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(462): WC_Checkout->process_checkout()
+#6 /var/www/html/wp-includes/class-wp-hook.php(286): WC_AJAX::checkout('')
+#7 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#9 /va in /var/www/html/wp-content/plugins/hexly-commerce/inc/product-fields.php on line 94
+
+2019-08-12T21:23:08+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Error::get_messages() in /var/www/html/wp-content/plugins/hexly-commerce/inc/product-fields.php:94
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): HexlyCommerceFields->sync_order_with_hexly(140, Array)
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(402): do_action('woocommerce_che...', 140, Array)
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(1109): WC_Checkout->create_order(Array)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(462): WC_Checkout->process_checkout()
+#6 /var/www/html/wp-includes/class-wp-hook.php(286): WC_AJAX::checkout('')
+#7 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#9 /va in /var/www/html/wp-content/plugins/hexly-commerce/inc/product-fields.php on line 94
+
+2019-08-12T21:25:51+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Error::get_messages() in /var/www/html/wp-content/plugins/hexly-commerce/inc/product-fields.php:94
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): HexlyCommerceFields->sync_order_with_hexly(141, Array)
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(402): do_action('woocommerce_che...', 141, Array)
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(1109): WC_Checkout->create_order(Array)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(462): WC_Checkout->process_checkout()
+#6 /var/www/html/wp-includes/class-wp-hook.php(286): WC_AJAX::checkout('')
+#7 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#9 /va in /var/www/html/wp-content/plugins/hexly-commerce/inc/product-fields.php on line 94
+
+2019-08-12T21:26:47+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Error::get_messages() in /var/www/html/wp-content/plugins/hexly-commerce/inc/product-fields.php:92
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): HexlyCommerceFields->sync_order_with_hexly(142, Array)
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(402): do_action('woocommerce_che...', 142, Array)
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(1109): WC_Checkout->create_order(Array)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(462): WC_Checkout->process_checkout()
+#6 /var/www/html/wp-includes/class-wp-hook.php(286): WC_AJAX::checkout('')
+#7 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#9 /va in /var/www/html/wp-content/plugins/hexly-commerce/inc/product-fields.php on line 92
+
+2019-08-12T23:31:43+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_register_style(), 1 passed in /var/www/html/wp-content/plugins/hexly-commerce/hexly-commerce.php on line 53 and at least 2 expected in /var/www/html/wp-includes/functions.wp-styles.php:125
+Stack trace:
+#0 /var/www/html/wp-content/plugins/hexly-commerce/hexly-commerce.php(53): wp_register_style('inc/available-p...')
+#1 /var/www/html/wp-includes/class-wp-hook.php(286): hexly_commerce_loaded('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-settings.php(394): do_action('plugins_loaded')
+#5 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(37): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#8 /var/www/html/index.php(17): require('/var/www/html/w...')
+#9 {main}
+  thrown in /var/www/html/wp-includes/functions.wp-styles.php on line 125
+
+2019-08-12T23:31:53+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_register_style(), 1 passed in /var/www/html/wp-content/plugins/hexly-commerce/hexly-commerce.php on line 53 and at least 2 expected in /var/www/html/wp-includes/functions.wp-styles.php:125
+Stack trace:
+#0 /var/www/html/wp-content/plugins/hexly-commerce/hexly-commerce.php(53): wp_register_style('inc/available-p...')
+#1 /var/www/html/wp-includes/class-wp-hook.php(286): hexly_commerce_loaded('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-settings.php(394): do_action('plugins_loaded')
+#5 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(37): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-includes/functions.wp-styles.php on line 125
+
+2019-08-12T23:31:53+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_register_style(), 1 passed in /var/www/html/wp-content/plugins/hexly-commerce/hexly-commerce.php on line 53 and at least 2 expected in /var/www/html/wp-includes/functions.wp-styles.php:125
+Stack trace:
+#0 /var/www/html/wp-content/plugins/hexly-commerce/hexly-commerce.php(53): wp_register_style('inc/available-p...')
+#1 /var/www/html/wp-includes/class-wp-hook.php(286): hexly_commerce_loaded('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-settings.php(394): do_action('plugins_loaded')
+#5 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(37): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#8 /var/www/html/wp-admin/plugins.php(10): require_once('/var/www/html/w...')
+#9 {main}
+  thrown in /var/www/html/wp-includes/functions.wp-styles.php on line 125
+
+2019-08-12T23:32:59+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_register_style(), 1 passed in /var/www/html/wp-content/plugins/hexly-commerce/hexly-commerce.php on line 53 and at least 2 expected in /var/www/html/wp-includes/functions.wp-styles.php:125
+Stack trace:
+#0 /var/www/html/wp-content/plugins/hexly-commerce/hexly-commerce.php(53): wp_register_style('inc/available-p...')
+#1 /var/www/html/wp-includes/class-wp-hook.php(286): hexly_commerce_loaded('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-settings.php(394): do_action('plugins_loaded')
+#5 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(37): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wp-includes/functions.wp-styles.php on line 125
+

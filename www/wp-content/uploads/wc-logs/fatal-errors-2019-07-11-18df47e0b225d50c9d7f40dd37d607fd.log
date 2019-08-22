@@ -1,0 +1,24 @@
+2019-07-11T19:06:08+00:00 CRITICAL syntax error, unexpected 'use' (T_USE), expecting ',' or ')' in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 278
+
+2019-07-11T20:57:58+00:00 CRITICAL Uncaught Error: Function name must be a string in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php:175
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): AvailableProducts->render('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/admin.php(253): do_action('hexly_page_avai...')
+#4 {main}
+  thrown in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 175
+
+2019-07-11T21:52:55+00:00 CRITICAL syntax error, unexpected '=', expecting ']' in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 65
+
+2019-07-11T21:53:10+00:00 CRITICAL syntax error, unexpected '=', expecting ']' in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 65
+
+2019-07-11T23:42:42+00:00 CRITICAL Uncaught Error: Call to undefined function parse_rows() in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php:165
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): AvailableProducts->render('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/admin.php(253): do_action('hexly_page_avai...')
+#4 {main}
+  thrown in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 165
+

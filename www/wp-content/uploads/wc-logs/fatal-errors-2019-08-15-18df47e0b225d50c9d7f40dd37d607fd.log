@@ -1,0 +1,12 @@
+2019-08-15T21:24:00+00:00 CRITICAL Uncaught Error: Call to undefined function update_meta_data() in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php:36
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): AvailableProducts->hexly_resync(Object(WC_Order))
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-order-actions.php(136): do_action('woocommerce_ord...', Object(WC_Order))
+#4 /var/www/html/wp-includes/class-wp-hook.php(286): WC_Meta_Box_Order_Actions::save(204, Object(WP_Post))
+#5 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-meta-boxes.php(218): do_action('woocommerce_pro...', 204, Object(WP_Post))
+#8 /var/www/html/wp in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 36
+

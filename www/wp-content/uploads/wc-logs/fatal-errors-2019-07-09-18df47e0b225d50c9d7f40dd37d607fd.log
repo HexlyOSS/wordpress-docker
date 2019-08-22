@@ -1,0 +1,141 @@
+2019-07-09T19:32:54+00:00 CRITICAL Uncaught Error: Call to a member function get_data() on array in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php:50
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): AvailableProducts->render('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/admin.php(253): do_action('hexly_page_avai...')
+#4 {main}
+  thrown in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 50
+
+2019-07-09T19:35:31+00:00 CRITICAL Uncaught Error: Call to a member function get_data() on array in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php:50
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): AvailableProducts->render('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/admin.php(253): do_action('hexly_page_avai...')
+#4 {main}
+  thrown in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 50
+
+2019-07-09T19:35:50+00:00 CRITICAL Uncaught Error: Call to a member function get_data() on string in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php:29
+Stack trace:
+#0 /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php(75): AvailableProducts->render_base_case('http://localhos...', 'Scary Terry', Array)
+#1 /var/www/html/wp-includes/class-wp-hook.php(286): AvailableProducts->render('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-admin/admin.php(253): do_action('hexly_page_avai...')
+#5 {main}
+  thrown in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 29
+
+2019-07-09T19:36:16+00:00 CRITICAL Uncaught Error: Call to a member function get_data() on string in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php:29
+Stack trace:
+#0 /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php(75): AvailableProducts->render_base_case('http://localhos...', 'Scary Terry', Array)
+#1 /var/www/html/wp-includes/class-wp-hook.php(286): AvailableProducts->render('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-admin/admin.php(253): do_action('hexly_page_avai...')
+#5 {main}
+  thrown in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 29
+
+2019-07-09T19:38:46+00:00 CRITICAL Uncaught Error: Call to a member function get_data() on string in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php:29
+Stack trace:
+#0 /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php(75): AvailableProducts->render_base_case('http://localhos...', 'Scary Terry', Array)
+#1 /var/www/html/wp-includes/class-wp-hook.php(286): AvailableProducts->render('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-admin/admin.php(253): do_action('hexly_page_avai...')
+#5 {main}
+  thrown in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 29
+
+2019-07-09T19:39:46+00:00 CRITICAL Uncaught Error: Call to a member function get_data() on string in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php:29
+Stack trace:
+#0 /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php(75): AvailableProducts->render_base_case('http://localhos...', 'Scary Terry', Array)
+#1 /var/www/html/wp-includes/class-wp-hook.php(286): AvailableProducts->render('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-admin/admin.php(253): do_action('hexly_page_avai...')
+#5 {main}
+  thrown in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 29
+
+2019-07-09T19:42:08+00:00 CRITICAL Uncaught Error: Call to a member function get_data() on string in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php:29
+Stack trace:
+#0 /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php(79): AvailableProducts->render_base_case('http://localhos...', 'Scary Terry', Array)
+#1 /var/www/html/wp-includes/class-wp-hook.php(286): AvailableProducts->render('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-admin/admin.php(253): do_action('hexly_page_avai...')
+#5 {main}
+  thrown in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 29
+
+2019-07-09T19:42:17+00:00 CRITICAL Uncaught Error: Call to a member function get_data() on string in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php:29
+Stack trace:
+#0 /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php(79): AvailableProducts->render_base_case('http://localhos...', 'Scary Terry', Array)
+#1 /var/www/html/wp-includes/class-wp-hook.php(286): AvailableProducts->render('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-admin/admin.php(253): do_action('hexly_page_avai...')
+#5 {main}
+  thrown in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 29
+
+2019-07-09T19:42:41+00:00 CRITICAL Uncaught Error: Call to a member function get_data() on string in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php:29
+Stack trace:
+#0 /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php(77): AvailableProducts->render_base_case('http://localhos...', 'Scary Terry', Array)
+#1 /var/www/html/wp-includes/class-wp-hook.php(286): AvailableProducts->render('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-admin/admin.php(253): do_action('hexly_page_avai...')
+#5 {main}
+  thrown in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 29
+
+2019-07-09T19:42:48+00:00 CRITICAL Uncaught Error: Call to a member function get_data() on string in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php:29
+Stack trace:
+#0 /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php(77): AvailableProducts->render_base_case('http://localhos...', 'Scary Terry', Array)
+#1 /var/www/html/wp-includes/class-wp-hook.php(286): AvailableProducts->render('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-admin/admin.php(253): do_action('hexly_page_avai...')
+#5 {main}
+  thrown in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 29
+
+2019-07-09T19:43:20+00:00 CRITICAL Uncaught Error: Call to a member function get_data() on string in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php:29
+Stack trace:
+#0 /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php(78): AvailableProducts->render_base_case('http://localhos...', 'Scary Terry', Array)
+#1 /var/www/html/wp-includes/class-wp-hook.php(286): AvailableProducts->render('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-admin/admin.php(253): do_action('hexly_page_avai...')
+#5 {main}
+  thrown in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 29
+
+2019-07-09T19:44:58+00:00 CRITICAL Uncaught Error: Call to a member function get_data() on string in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php:29
+Stack trace:
+#0 /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php(79): AvailableProducts->render_base_case('http://localhos...', 'Scary Terry', Array)
+#1 /var/www/html/wp-includes/class-wp-hook.php(286): AvailableProducts->render('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-admin/admin.php(253): do_action('hexly_page_avai...')
+#5 {main}
+  thrown in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 29
+
+2019-07-09T19:50:53+00:00 CRITICAL Uncaught Error: Call to a member function get_data() on string in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php:71
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): AvailableProducts->render('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/admin.php(253): do_action('hexly_page_avai...')
+#4 {main}
+  thrown in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 71
+
+2019-07-09T19:54:54+00:00 CRITICAL Object of class WC_Meta_Data could not be converted to string in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 31
+
+2019-07-09T19:56:39+00:00 CRITICAL Object of class WC_Meta_Data could not be converted to string in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 31
+
+2019-07-09T19:57:41+00:00 CRITICAL Object of class WC_Meta_Data could not be converted to string in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 31
+
+2019-07-09T19:58:59+00:00 CRITICAL Object of class WC_Meta_Data could not be converted to string in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 31
+
+2019-07-09T20:00:47+00:00 CRITICAL Object of class WC_Meta_Data could not be converted to string in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 31
+
+2019-07-09T20:12:04+00:00 CRITICAL Object of class WC_Meta_Data could not be converted to string in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 73
+
+2019-07-09T21:25:33+00:00 CRITICAL Object of class AvailableProducts could not be converted to string in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 39
+
