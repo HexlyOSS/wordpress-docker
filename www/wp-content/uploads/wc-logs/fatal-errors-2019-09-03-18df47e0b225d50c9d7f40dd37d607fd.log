@@ -1,0 +1,50 @@
+2019-09-03T19:06:51+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function HexlyAuth::{closure}(), 1 passed in /var/www/html/wp-includes/class-wp-hook.php on line 286 and exactly 2 expected in /var/www/html/wp-content/plugins/wp-auth/inc/auth.php:15
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): HexlyAuth->{closure}('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-content/plugins/woocommerce/templates/myaccount/form-edit-account.php(65): do_action('woocommerce_edi...')
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/var/www/html/w...')
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-my-account.php(160): wc_get_template('myaccount/form-...', Array)
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3123): WC_Shortcode_My_Account::edit_account()
+#7 /var/www/htm in /var/www/html/wp-content/plugins/wp-auth/inc/auth.php on line 15
+
+2019-09-03T19:07:50+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function HexlyAuth::{closure}(), 1 passed in /var/www/html/wp-includes/class-wp-hook.php on line 286 and exactly 2 expected in /var/www/html/wp-content/plugins/wp-auth/inc/auth.php:15
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): HexlyAuth->{closure}('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-content/plugins/woocommerce/templates/myaccount/form-edit-account.php(65): do_action('woocommerce_edi...')
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/var/www/html/w...')
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-my-account.php(160): wc_get_template('myaccount/form-...', Array)
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3123): WC_Shortcode_My_Account::edit_account()
+#7 /var/www/htm in /var/www/html/wp-content/plugins/wp-auth/inc/auth.php on line 15
+
+2019-09-03T19:09:09+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function HexlyAuth::{closure}(), 1 passed in /var/www/html/wp-includes/class-wp-hook.php on line 286 and exactly 2 expected in /var/www/html/wp-content/plugins/wp-auth/inc/auth.php:15
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): HexlyAuth->{closure}('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-content/plugins/woocommerce/templates/myaccount/form-edit-account.php(65): do_action('woocommerce_edi...')
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/var/www/html/w...')
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-my-account.php(160): wc_get_template('myaccount/form-...', Array)
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3123): WC_Shortcode_My_Account::edit_account()
+#7 /var/www/htm in /var/www/html/wp-content/plugins/wp-auth/inc/auth.php on line 15
+
+2019-09-03T19:59:22+00:00 CRITICAL Uncaught Error: Function name must be a string in /var/www/html/wp-content/plugins/wp-auth/inc/auth.php:16
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(288): HexlyAuth->{closure}(Object(WP_Error))
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(531): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(299): do_action_ref_array('woocommerce_sav...', Array)
+#4 /var/www/html/wp-includes/class-wp-hook.php(286): WC_Form_Handler::save_account_details('')
+#5 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/template-loader.php(13): do_action('template_redire...')
+#8 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#9 /var/www/html/index.php(17): require('/var/www/html/w...')
+#10 {main}
+  thrown in /var/www/html/wp-content/plugins/wp-auth/inc/auth.php on line 16
+
+2019-09-03T20:36:18+00:00 CRITICAL syntax error, unexpected 'wp_remote_post' (T_STRING) in /var/www/html/wp-content/plugins/wp-auth/inc/auth.php on line 19
+
