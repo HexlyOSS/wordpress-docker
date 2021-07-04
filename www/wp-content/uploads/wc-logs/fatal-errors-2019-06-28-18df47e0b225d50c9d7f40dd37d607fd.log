@@ -1,0 +1,87 @@
+2019-06-28T00:11:59+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /var/www/html/wp-content/plugins/hexly-commerce/inc/hexly-meta-boxes.php:21
+Stack trace:
+#0 /var/www/html/wp-admin/includes/template.php(1304): wphex_custom_box_html(Object(WP_Post), Array)
+#1 /var/www/html/wp-admin/edit-form-advanced.php(635): do_meta_boxes(Object(WP_Screen), 'side', Object(WP_Post))
+#2 /var/www/html/wp-admin/post.php(197): include('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-content/plugins/hexly-commerce/inc/hexly-meta-boxes.php on line 21
+
+2019-06-28T00:12:03+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /var/www/html/wp-content/plugins/hexly-commerce/inc/hexly-meta-boxes.php:21
+Stack trace:
+#0 /var/www/html/wp-admin/includes/template.php(1304): wphex_custom_box_html(Object(WP_Post), Array)
+#1 /var/www/html/wp-admin/edit-form-advanced.php(635): do_meta_boxes(Object(WP_Screen), 'side', Object(WP_Post))
+#2 /var/www/html/wp-admin/post.php(197): include('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-content/plugins/hexly-commerce/inc/hexly-meta-boxes.php on line 21
+
+2019-06-28T00:12:15+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /var/www/html/wp-content/plugins/hexly-commerce/inc/hexly-meta-boxes.php:21
+Stack trace:
+#0 /var/www/html/wp-admin/includes/template.php(1304): wphex_custom_box_html(Object(WP_Post), Array)
+#1 /var/www/html/wp-admin/edit-form-advanced.php(635): do_meta_boxes(Object(WP_Screen), 'side', Object(WP_Post))
+#2 /var/www/html/wp-admin/post.php(197): include('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-content/plugins/hexly-commerce/inc/hexly-meta-boxes.php on line 21
+
+2019-06-28T00:12:30+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /var/www/html/wp-content/plugins/hexly-commerce/inc/hexly-meta-boxes.php:21
+Stack trace:
+#0 /var/www/html/wp-admin/includes/template.php(1304): wphex_custom_box_html(Object(WP_Post), Array)
+#1 /var/www/html/wp-admin/edit-form-advanced.php(635): do_meta_boxes(Object(WP_Screen), 'side', Object(WP_Post))
+#2 /var/www/html/wp-admin/post.php(197): include('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-content/plugins/hexly-commerce/inc/hexly-meta-boxes.php on line 21
+
+2019-06-28T00:12:32+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /var/www/html/wp-content/plugins/hexly-commerce/inc/hexly-meta-boxes.php:21
+Stack trace:
+#0 /var/www/html/wp-admin/includes/template.php(1304): wphex_custom_box_html(Object(WP_Post), Array)
+#1 /var/www/html/wp-admin/edit-form-advanced.php(635): do_meta_boxes(Object(WP_Screen), 'side', Object(WP_Post))
+#2 /var/www/html/wp-admin/post.php(197): include('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-content/plugins/hexly-commerce/inc/hexly-meta-boxes.php on line 21
+
+2019-06-28T00:13:15+00:00 CRITICAL syntax error, unexpected '<' in /var/www/html/wp-content/plugins/hexly-commerce/inc/hexly-meta-boxes.php on line 23
+
+2019-06-28T00:13:52+00:00 CRITICAL syntax error, unexpected '>' in /var/www/html/wp-content/plugins/hexly-commerce/inc/hexly-meta-boxes.php on line 30
+
+2019-06-28T00:14:06+00:00 CRITICAL syntax error, unexpected '>' in /var/www/html/wp-content/plugins/hexly-commerce/inc/hexly-meta-boxes.php on line 30
+
+2019-06-28T00:14:29+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /var/www/html/wp-content/plugins/hexly-commerce/inc/hexly-meta-boxes.php:21
+Stack trace:
+#0 /var/www/html/wp-admin/includes/template.php(1304): wphex_custom_box_html(Object(WP_Post), Array)
+#1 /var/www/html/wp-admin/edit-form-advanced.php(635): do_meta_boxes(Object(WP_Screen), 'side', Object(WP_Post))
+#2 /var/www/html/wp-admin/post.php(197): include('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-content/plugins/hexly-commerce/inc/hexly-meta-boxes.php on line 21
+
+2019-06-28T00:14:32+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /var/www/html/wp-content/plugins/hexly-commerce/inc/hexly-meta-boxes.php:21
+Stack trace:
+#0 /var/www/html/wp-admin/includes/template.php(1304): wphex_custom_box_html(Object(WP_Post), Array)
+#1 /var/www/html/wp-admin/edit-form-advanced.php(635): do_meta_boxes(Object(WP_Screen), 'side', Object(WP_Post))
+#2 /var/www/html/wp-admin/post.php(197): include('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-content/plugins/hexly-commerce/inc/hexly-meta-boxes.php on line 21
+
+2019-06-28T00:14:36+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /var/www/html/wp-content/plugins/hexly-commerce/inc/hexly-meta-boxes.php:21
+Stack trace:
+#0 /var/www/html/wp-admin/includes/template.php(1304): wphex_custom_box_html(Object(WP_Post), Array)
+#1 /var/www/html/wp-admin/edit-form-advanced.php(635): do_meta_boxes(Object(WP_Screen), 'side', Object(WP_Post))
+#2 /var/www/html/wp-admin/post.php(197): include('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-content/plugins/hexly-commerce/inc/hexly-meta-boxes.php on line 21
+
+2019-06-28T00:41:14+00:00 CRITICAL Uncaught Error: Class 'WD_Order' not found in /var/www/html/wp-content/plugins/hexly-commerce/inc/hexly-meta-boxes.php:22
+Stack trace:
+#0 /var/www/html/wp-admin/includes/template.php(1304): wphex_custom_box_html(Object(WP_Post), Array)
+#1 /var/www/html/wp-admin/edit-form-advanced.php(635): do_meta_boxes(Object(WP_Screen), 'side', Object(WP_Post))
+#2 /var/www/html/wp-admin/post.php(197): include('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-content/plugins/hexly-commerce/inc/hexly-meta-boxes.php on line 22
+
+2019-06-28T00:52:14+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wc_get_order_item_meta(), 1 passed in /var/www/html/wp-content/plugins/hexly-commerce/inc/hexly-meta-boxes.php on line 26 and at least 2 expected in /var/www/html/wp-content/plugins/woocommerce/includes/wc-order-item-functions.php:165
+Stack trace:
+#0 /var/www/html/wp-content/plugins/hexly-commerce/inc/hexly-meta-boxes.php(26): wc_get_order_item_meta(68)
+#1 /var/www/html/wp-admin/includes/template.php(1304): wphex_custom_box_html(Object(WP_Post), Array)
+#2 /var/www/html/wp-admin/edit-form-advanced.php(635): do_meta_boxes(Object(WP_Screen), 'side', Object(WP_Post))
+#3 /var/www/html/wp-admin/post.php(197): include('/var/www/html/w...')
+#4 {main}
+  thrown in /var/www/html/wp-content/plugins/woocommerce/includes/wc-order-item-functions.php on line 165
+

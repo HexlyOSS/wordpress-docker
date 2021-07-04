@@ -1,0 +1,164 @@
+2019-08-16T20:59:26+00:00 CRITICAL Uncaught Error: Call to undefined method AvailableProducts::flatten() in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php:22
+Stack trace:
+#0 /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php(56): AvailableProducts->json_swap(Array, true)
+#1 /var/www/html/wp-includes/class-wp-hook.php(286): AvailableProducts->hexly_resync(Object(WC_Order))
+#2 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-order-actions.php(136): do_action('woocommerce_ord...', Object(WC_Order))
+#5 /var/www/html/wp-includes/class-wp-hook.php(286): WC_Meta_Box_Order_Actions::save(208, Object(WP_Post))
+#6 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-content/plugins/woo in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 22
+
+2019-08-16T21:00:13+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Meta_Data as array in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php:30
+Stack trace:
+#0 /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php(22): AvailableProducts->flatten_kv(Array)
+#1 /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php(56): AvailableProducts->json_swap(Array, true)
+#2 /var/www/html/wp-includes/class-wp-hook.php(286): AvailableProducts->hexly_resync(Object(WC_Order))
+#3 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-order-actions.php(136): do_action('woocommerce_ord...', Object(WC_Order))
+#6 /var/www/html/wp-includes/class-wp-hook.php(286): WC_Meta_Box_Order_Actions::save(208, Object(WP_Post))
+#7 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Arra in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 30
+
+2019-08-16T21:00:38+00:00 CRITICAL Uncaught Error: Call to a member function get_data() on array in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php:56
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): AvailableProducts->hexly_resync(Object(WC_Order))
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-order-actions.php(136): do_action('woocommerce_ord...', Object(WC_Order))
+#4 /var/www/html/wp-includes/class-wp-hook.php(286): WC_Meta_Box_Order_Actions::save(208, Object(WP_Post))
+#5 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-meta-boxes.php(218): do_action('woocommerce_pro...', 208, Object(WP_Post))
+#8 /var/www/html/wp in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 56
+
+2019-08-16T21:01:29+00:00 CRITICAL Uncaught Error: Call to a member function get_data() on array in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php:56
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): AvailableProducts->hexly_resync(Object(WC_Order))
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-order-actions.php(136): do_action('woocommerce_ord...', Object(WC_Order))
+#4 /var/www/html/wp-includes/class-wp-hook.php(286): WC_Meta_Box_Order_Actions::save(208, Object(WP_Post))
+#5 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-meta-boxes.php(218): do_action('woocommerce_pro...', 208, Object(WP_Post))
+#8 /var/www/html/wp in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 56
+
+2019-08-16T21:02:16+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Meta_Data as array in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php:30
+Stack trace:
+#0 /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php(22): AvailableProducts->flatten_kv(Array)
+#1 /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php(56): AvailableProducts->json_swap(Array, true)
+#2 /var/www/html/wp-includes/class-wp-hook.php(286): AvailableProducts->hexly_resync(Object(WC_Order))
+#3 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-order-actions.php(136): do_action('woocommerce_ord...', Object(WC_Order))
+#6 /var/www/html/wp-includes/class-wp-hook.php(286): WC_Meta_Box_Order_Actions::save(208, Object(WP_Post))
+#7 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Arra in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 30
+
+2019-08-16T21:03:38+00:00 CRITICAL Uncaught Error: Call to a member function get_data() on array in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php:56
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): AvailableProducts->hexly_resync(Object(WC_Order))
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-order-actions.php(136): do_action('woocommerce_ord...', Object(WC_Order))
+#4 /var/www/html/wp-includes/class-wp-hook.php(286): WC_Meta_Box_Order_Actions::save(208, Object(WP_Post))
+#5 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-meta-boxes.php(218): do_action('woocommerce_pro...', 208, Object(WP_Post))
+#8 /var/www/html/wp in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 56
+
+2019-08-16T21:05:46+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Meta_Data as array in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php:31
+Stack trace:
+#0 /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php(23): AvailableProducts->flatten_kv(Array)
+#1 /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php(57): AvailableProducts->json_swap(Array, true)
+#2 /var/www/html/wp-includes/class-wp-hook.php(286): AvailableProducts->hexly_resync(Object(WC_Order))
+#3 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-order-actions.php(136): do_action('woocommerce_ord...', Object(WC_Order))
+#6 /var/www/html/wp-includes/class-wp-hook.php(286): WC_Meta_Box_Order_Actions::save(208, Object(WP_Post))
+#7 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Arra in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 31
+
+2019-08-16T21:06:43+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Meta_Data as array in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php:31
+Stack trace:
+#0 /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php(23): AvailableProducts->flatten_kv(Array)
+#1 /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php(57): AvailableProducts->json_swap(Array, true)
+#2 /var/www/html/wp-includes/class-wp-hook.php(286): AvailableProducts->hexly_resync(Object(WC_Order))
+#3 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-order-actions.php(136): do_action('woocommerce_ord...', Object(WC_Order))
+#6 /var/www/html/wp-includes/class-wp-hook.php(286): WC_Meta_Box_Order_Actions::save(208, Object(WP_Post))
+#7 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Arra in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 31
+
+2019-08-16T21:08:57+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php:31
+Stack trace:
+#0 /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php(55): AvailableProducts->flatten_kv(Array)
+#1 /var/www/html/wp-includes/class-wp-hook.php(286): AvailableProducts->hexly_resync(Object(WC_Order))
+#2 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-order-actions.php(136): do_action('woocommerce_ord...', Object(WC_Order))
+#5 /var/www/html/wp-includes/class-wp-hook.php(286): WC_Meta_Box_Order_Actions::save(208, Object(WP_Post))
+#6 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-content/plugins/woocommerce/includ in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 31
+
+2019-08-16T21:12:57+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php:32
+Stack trace:
+#0 /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php(58): AvailableProducts->flatten_kv(Array)
+#1 /var/www/html/wp-includes/class-wp-hook.php(286): AvailableProducts->hexly_resync(Object(WC_Order))
+#2 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-order-actions.php(136): do_action('woocommerce_ord...', Object(WC_Order))
+#5 /var/www/html/wp-includes/class-wp-hook.php(286): WC_Meta_Box_Order_Actions::save(208, Object(WP_Post))
+#6 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-content/plugins/woocommerce/includ in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 32
+
+2019-08-16T21:13:51+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php:32
+Stack trace:
+#0 /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php(58): AvailableProducts->flatten_kv(Array)
+#1 /var/www/html/wp-includes/class-wp-hook.php(286): AvailableProducts->hexly_resync(Object(WC_Order))
+#2 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-order-actions.php(136): do_action('woocommerce_ord...', Object(WC_Order))
+#5 /var/www/html/wp-includes/class-wp-hook.php(286): WC_Meta_Box_Order_Actions::save(208, Object(WP_Post))
+#6 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-content/plugins/woocommerce/includ in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 32
+
+2019-08-16T21:14:07+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php:32
+Stack trace:
+#0 /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php(58): AvailableProducts->flatten_kv(Array)
+#1 /var/www/html/wp-includes/class-wp-hook.php(286): AvailableProducts->hexly_resync(Object(WC_Order))
+#2 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-order-actions.php(136): do_action('woocommerce_ord...', Object(WC_Order))
+#5 /var/www/html/wp-includes/class-wp-hook.php(286): WC_Meta_Box_Order_Actions::save(208, Object(WP_Post))
+#6 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-content/plugins/woocommerce/includ in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 32
+
+2019-08-16T21:15:39+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php:32
+Stack trace:
+#0 /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php(60): AvailableProducts->flatten_kv(Array)
+#1 /var/www/html/wp-includes/class-wp-hook.php(286): AvailableProducts->hexly_resync(Object(WC_Order))
+#2 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-order-actions.php(136): do_action('woocommerce_ord...', Object(WC_Order))
+#5 /var/www/html/wp-includes/class-wp-hook.php(286): WC_Meta_Box_Order_Actions::save(208, Object(WP_Post))
+#6 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-content/plugins/woocommerce/includ in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 32
+
+2019-08-16T21:21:40+00:00 CRITICAL Uncaught Error: Call to undefined function unsset() in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php:60
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): AvailableProducts->hexly_resync(Object(WC_Order))
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-order-actions.php(136): do_action('woocommerce_ord...', Object(WC_Order))
+#4 /var/www/html/wp-includes/class-wp-hook.php(286): WC_Meta_Box_Order_Actions::save(208, Object(WP_Post))
+#5 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-meta-boxes.php(218): do_action('woocommerce_pro...', 208, Object(WP_Post))
+#8 /var/www/html/wp-includes/ in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 60
+

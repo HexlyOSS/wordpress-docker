@@ -1,0 +1,24 @@
+2019-07-12T00:01:07+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Meta_Data as array in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php:117
+Stack trace:
+#0 [internal function]: AvailableProducts->{closure}(false, Object(WC_Meta_Data))
+#1 /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php(120): array_reduce(Array, Object(Closure), false)
+#2 /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php(169): AvailableProducts->parse_rows(Object(WC_Product_Simple), Array, Array)
+#3 /var/www/html/wp-includes/class-wp-hook.php(286): AvailableProducts->render('')
+#4 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#6 /var/www/html/wp-admin/admin.php(253): do_action('hexly_page_avai...')
+#7 {main}
+  thrown in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 117
+
+2019-07-12T00:04:27+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Meta_Data as array in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php:122
+Stack trace:
+#0 [internal function]: AvailableProducts->{closure}(false, Object(WC_Meta_Data))
+#1 /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php(125): array_reduce(Array, Object(Closure), false)
+#2 /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php(168): AvailableProducts->parse_rows(Object(WC_Product_Simple), Array, Array)
+#3 /var/www/html/wp-includes/class-wp-hook.php(286): AvailableProducts->render('')
+#4 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#6 /var/www/html/wp-admin/admin.php(253): do_action('hexly_page_avai...')
+#7 {main}
+  thrown in /var/www/html/wp-content/plugins/hexly-commerce/inc/available-products.php on line 122
+

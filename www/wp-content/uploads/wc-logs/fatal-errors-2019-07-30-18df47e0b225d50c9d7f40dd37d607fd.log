@@ -1,0 +1,13 @@
+2019-07-30T19:01:55+00:00 CRITICAL Uncaught Error: Call to undefined method stdClass::exists() in /var/www/html/wp-includes/capabilities.php:725
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/includes/wc-user-functions.php(810): user_can(Object(stdClass), 'manage_woocomme...')
+#1 /var/www/html/wp-includes/class-wp-hook.php(286): wc_maybe_store_user_agent(NULL, Object(stdClass))
+#2 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-includes/user.php(110): do_action('wp_login', NULL, Object(stdClass))
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(989): wp_signon(Array, false)
+#6 /var/www/html/wp-includes/class-wp-hook.php(286): WC_Form_Handler::process_login('')
+#7 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#8 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#9 /var/www/html/wp-settings.php(546): do_action('wp_ in /var/www/html/wp-includes/capabilities.php on line 725
+

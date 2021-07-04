@@ -1,0 +1,117 @@
+2019-07-26T21:14:44+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /var/www/html/wp-content/plugins/wp-auth/inc/auth.php:30
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): HexlyAuth->hexly_authenticate(Object(WP_User), 'claysonbrenda@g...', 'Password1')
+#1 /var/www/html/wp-includes/plugin.php(208): WP_Hook->apply_filters(Object(WP_User), Array)
+#2 /var/www/html/wp-includes/pluggable.php(539): apply_filters('authenticate', NULL, 'claysonbrenda@g...', 'Password1')
+#3 /var/www/html/wp-includes/user.php(95): wp_authenticate('claysonbrenda@g...', 'Password1')
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(989): wp_signon(Array, false)
+#5 /var/www/html/wp-includes/class-wp-hook.php(286): WC_Form_Handler::process_login('')
+#6 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-settings.php(546): do_action('wp_loaded')
+#9 /var/www/html/wp-confi in /var/www/html/wp-content/plugins/wp-auth/inc/auth.php on line 30
+
+2019-07-26T21:16:22+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /var/www/html/wp-content/plugins/wp-auth/inc/auth.php:30
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): HexlyAuth->hexly_authenticate(Object(WP_User), 'claysonbrenda@g...', 'Password1')
+#1 /var/www/html/wp-includes/plugin.php(208): WP_Hook->apply_filters(Object(WP_User), Array)
+#2 /var/www/html/wp-includes/pluggable.php(539): apply_filters('authenticate', NULL, 'claysonbrenda@g...', 'Password1')
+#3 /var/www/html/wp-includes/user.php(95): wp_authenticate('claysonbrenda@g...', 'Password1')
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(989): wp_signon(Array, false)
+#5 /var/www/html/wp-includes/class-wp-hook.php(286): WC_Form_Handler::process_login('')
+#6 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-settings.php(546): do_action('wp_loaded')
+#9 /var/www/html/wp-confi in /var/www/html/wp-content/plugins/wp-auth/inc/auth.php on line 30
+
+2019-07-26T21:17:24+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /var/www/html/wp-content/plugins/wp-auth/inc/auth.php:30
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): HexlyAuth->hexly_authenticate(Object(WP_User), 'claysonbrenda@g...', 'Password1')
+#1 /var/www/html/wp-includes/plugin.php(208): WP_Hook->apply_filters(Object(WP_User), Array)
+#2 /var/www/html/wp-includes/pluggable.php(539): apply_filters('authenticate', NULL, 'claysonbrenda@g...', 'Password1')
+#3 /var/www/html/wp-includes/user.php(95): wp_authenticate('claysonbrenda@g...', 'Password1')
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(989): wp_signon(Array, false)
+#5 /var/www/html/wp-includes/class-wp-hook.php(286): WC_Form_Handler::process_login('')
+#6 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-settings.php(546): do_action('wp_loaded')
+#9 /var/www/html/wp-confi in /var/www/html/wp-content/plugins/wp-auth/inc/auth.php on line 30
+
+2019-07-26T21:19:31+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /var/www/html/wp-content/plugins/wp-auth/inc/auth.php:30
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): HexlyAuth->hexly_authenticate(Object(WP_User), 'claysonbrenda@g...', 'Password1')
+#1 /var/www/html/wp-includes/plugin.php(208): WP_Hook->apply_filters(Object(WP_User), Array)
+#2 /var/www/html/wp-includes/pluggable.php(539): apply_filters('authenticate', NULL, 'claysonbrenda@g...', 'Password1')
+#3 /var/www/html/wp-includes/user.php(95): wp_authenticate('claysonbrenda@g...', 'Password1')
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(989): wp_signon(Array, false)
+#5 /var/www/html/wp-includes/class-wp-hook.php(286): WC_Form_Handler::process_login('')
+#6 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-settings.php(546): do_action('wp_loaded')
+#9 /var/www/html/wp-confi in /var/www/html/wp-content/plugins/wp-auth/inc/auth.php on line 30
+
+2019-07-26T21:22:17+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /var/www/html/wp-content/plugins/wp-auth/inc/auth.php:30
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): HexlyAuth->hexly_authenticate(Object(WP_User), 'claysonbrenda@g...', 'Password1')
+#1 /var/www/html/wp-includes/plugin.php(208): WP_Hook->apply_filters(Object(WP_User), Array)
+#2 /var/www/html/wp-includes/pluggable.php(539): apply_filters('authenticate', NULL, 'claysonbrenda@g...', 'Password1')
+#3 /var/www/html/wp-includes/user.php(95): wp_authenticate('claysonbrenda@g...', 'Password1')
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(989): wp_signon(Array, false)
+#5 /var/www/html/wp-includes/class-wp-hook.php(286): WC_Form_Handler::process_login('')
+#6 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-settings.php(546): do_action('wp_loaded')
+#9 /var/www/html/wp-confi in /var/www/html/wp-content/plugins/wp-auth/inc/auth.php on line 30
+
+2019-07-26T21:23:43+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /var/www/html/wp-content/plugins/wp-auth/inc/auth.php:30
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): HexlyAuth->hexly_authenticate(Object(WP_User), 'claysonbrenda@g...', 'Password1')
+#1 /var/www/html/wp-includes/plugin.php(208): WP_Hook->apply_filters(Object(WP_User), Array)
+#2 /var/www/html/wp-includes/pluggable.php(539): apply_filters('authenticate', NULL, 'claysonbrenda@g...', 'Password1')
+#3 /var/www/html/wp-includes/user.php(95): wp_authenticate('claysonbrenda@g...', 'Password1')
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(989): wp_signon(Array, false)
+#5 /var/www/html/wp-includes/class-wp-hook.php(286): WC_Form_Handler::process_login('')
+#6 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-settings.php(546): do_action('wp_loaded')
+#9 /var/www/html/wp-confi in /var/www/html/wp-content/plugins/wp-auth/inc/auth.php on line 30
+
+2019-07-26T21:24:30+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /var/www/html/wp-content/plugins/wp-auth/inc/auth.php:30
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): HexlyAuth->hexly_authenticate(Object(WP_User), 'claysonbrenda@g...', 'Password1')
+#1 /var/www/html/wp-includes/plugin.php(208): WP_Hook->apply_filters(Object(WP_User), Array)
+#2 /var/www/html/wp-includes/pluggable.php(539): apply_filters('authenticate', NULL, 'claysonbrenda@g...', 'Password1')
+#3 /var/www/html/wp-includes/user.php(95): wp_authenticate('claysonbrenda@g...', 'Password1')
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(989): wp_signon(Array, false)
+#5 /var/www/html/wp-includes/class-wp-hook.php(286): WC_Form_Handler::process_login('')
+#6 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-settings.php(546): do_action('wp_loaded')
+#9 /var/www/html/wp-confi in /var/www/html/wp-content/plugins/wp-auth/inc/auth.php on line 30
+
+2019-07-26T21:26:47+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /var/www/html/wp-content/plugins/wp-auth/inc/auth.php:31
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): HexlyAuth->hexly_authenticate(Object(WP_User), 'claysonbrenda@g...', 'Password1')
+#1 /var/www/html/wp-includes/plugin.php(208): WP_Hook->apply_filters(Object(WP_User), Array)
+#2 /var/www/html/wp-includes/pluggable.php(539): apply_filters('authenticate', NULL, 'claysonbrenda@g...', 'Password1')
+#3 /var/www/html/wp-includes/user.php(95): wp_authenticate('claysonbrenda@g...', 'Password1')
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(989): wp_signon(Array, false)
+#5 /var/www/html/wp-includes/class-wp-hook.php(286): WC_Form_Handler::process_login('')
+#6 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-settings.php(546): do_action('wp_loaded')
+#9 /var/www/html/wp-confi in /var/www/html/wp-content/plugins/wp-auth/inc/auth.php on line 31
+
+2019-07-26T21:28:34+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /var/www/html/wp-content/plugins/wp-auth/inc/auth.php:31
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): HexlyAuth->hexly_authenticate(Object(WP_User), 'claysonbrenda@g...', 'Password1')
+#1 /var/www/html/wp-includes/plugin.php(208): WP_Hook->apply_filters(Object(WP_User), Array)
+#2 /var/www/html/wp-includes/pluggable.php(539): apply_filters('authenticate', NULL, 'claysonbrenda@g...', 'Password1')
+#3 /var/www/html/wp-includes/user.php(95): wp_authenticate('claysonbrenda@g...', 'Password1')
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(989): wp_signon(Array, false)
+#5 /var/www/html/wp-includes/class-wp-hook.php(286): WC_Form_Handler::process_login('')
+#6 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-settings.php(546): do_action('wp_loaded')
+#9 /var/www/html/wp-confi in /var/www/html/wp-content/plugins/wp-auth/inc/auth.php on line 31
+
